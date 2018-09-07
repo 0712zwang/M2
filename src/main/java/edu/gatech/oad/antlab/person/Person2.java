@@ -19,6 +19,7 @@ public class Person2 {
 	 public Person2(String pname) {
 	   name = pname;
 	 }
+
 	/**
 	 * This method should take the string
 	 * input and return its characters in
@@ -30,9 +31,24 @@ public class Person2 {
 	 * @return the modified string
 	 */
 	private String calc(String input) {
-	  //Person 2 put your implementation here
-	  return null;
+	  Random rand = new Random();
+	  String[] letter = new String[name.length()];
+	  String idxStr = new String();
+
+	  for (int i = 0; i < name.length(); i++) {
+	  	int  n = rand.nextInt(this.name.length()) + 0;
+	  	
+	  	if(idxStr.contains(n)){
+	  		i--;
+	  		continue;
+	  	}
+	  	
+	  	letter[i] = name.getCharAt(n);
+	  }
+
+	  return Arrays.toString(letter);
 	}
+	
 	/**
 	 * Return a string rep of this object
 	 * that varies with an input string
