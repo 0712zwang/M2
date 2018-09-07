@@ -39,7 +39,8 @@ public class Person1 {
 	  		newString += input.charAt(i);
 	  	}
 	  }
-	  newString += input.charAt(1) + input.charAt(2);
+	  newString += input.charAt(1);
+	  newString += input.charAt(2);
 	  return newString;
 	}
 	
