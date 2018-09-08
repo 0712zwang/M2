@@ -1,3 +1,3 @@
-readme.p3 file for M2
-name: Drew Hatcher
-email: ahatcher8@gatech.edu
+CS2340 Team 13
+Name: Drew Hatcher
+Email: ahatcher8@gatech.edu
